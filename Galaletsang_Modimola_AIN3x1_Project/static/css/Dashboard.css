@@ -1,0 +1,121 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.dashboard-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #a0cddc; }
+
+.dashboard-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 896px;
+  flex-shrink: 0; }
+
+.dashboard-decorator {
+  background: var(--src) center center/contain no-repeat; }
+
+.dashboard-decorator.layout {
+  position: absolute;
+  top: 204px;
+  bottom: 0px;
+  left: -266px;
+  width: 613px; }
+
+.dashboard-flex {
+  display: flex;
+  flex-direction: column; }
+
+.dashboard-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 61.84%;
+  margin: 88px auto; }
+
+.dashboard-big-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font: 700 32px/0.75 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+  letter-spacing: -0.35px; }
+
+.dashboard-big-title.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 196px;
+  min-width: 196px;
+  margin: 0px auto; }
+
+.dashboard-highlights {
+  display: flex;
+  align-items: center;
+  font: 16px/1.2 "Inter", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: -0.18px; }
+
+.dashboard-highlights.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 241px;
+  min-width: 241px;
+  margin: 43.5px auto 0px; }
+
+.dashboard-flex-item {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+.dashboard-block1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.247059);
+  border: 1px solid #172744;
+  border-radius: 16px 16px 16px 16px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-property: transform; }
+
+.dashboard-block1:hover {
+  transform: scale(0.9); }
+
+.dashboard-block1.layout {
+  position: relative;
+  height: 65px;
+  margin: 133.5px 9px 0px 25px; }
+
+.dashboard-highlights1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #172744;
+  text-align: center;
+  letter-spacing: -0.18px;
+  width: 100%;
+  height: 100%; }
+
+.dashboard-block11 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.247059);
+  border: 1px solid #172744;
+  border-radius: 16px 16px 16px 16px;
+  cursor: pointer; }
+
+.dashboard-block11.layout {
+  position: relative;
+  height: 65px;
+  margin: 95px 4px 0px 30px; }
+
+.dashboard-block1.layout1 {
+  position: relative;
+  height: 65px;
+  margin: 95px 4px 114px 30px; }

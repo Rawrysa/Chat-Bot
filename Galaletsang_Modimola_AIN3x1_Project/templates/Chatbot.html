@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <!--  This source code is exported from pxCode, you can get more document from https://www.pxcode.io  -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/static/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/Chatbot.css" />
+
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"
+    ></script>
+  </head>
+
+  <body style="display: flex; flex-direction: column">
+    <div class="chatbot chatbot-block layout">
+      <div class="chatbot-box layout"></div>
+      <div class="chatbot-flex layout">
+        <div class="chatbot-flex1 layout">
+          <a href="http://127.0.0.1:5000/dashboard">
+          <div class="chatbot-flex1-item">
+            <div
+              style="--src:url(/static/images/5ef8cde49dcebe28256d1240afe5de63.png)"
+              class="chatbot-cover-block1 layout"
+            >
+              <div
+                style="--src:url(/static/images/6cfa2d8129a0613083c98386eef19f59.png)"
+                class="chatbot-image layout"
+              ></div>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="chatbot-flex layout"
+        style="margin: 760px 0px 3px;">
+        <div id="question">
+          {{ question }}
+        </div>
+        <div id="answer">
+          {{ answer }}
+        </div>
+        </div>
+        <form method="POST">
+        <div class="chatbot-flex2 layout">
+          <div class="chatbot-flex2-item">
+            <input class="chatbot-cover-block2 layout" type="text" name="question" placeholder="Enter your question here">
+          </div>
+          <div class="chatbot-flex2-spacer"></div>
+          <div class="chatbot-flex2-item1">
+              <button type="submit" style="border: none; background-color: transparent">
+            <div
+              style="--src:url(/static/images/89bffa0fc5389bff5b197c7f6e203d64.png)"
+              class="chatbot-cover-block layout"
+            >
+              <div
+                style="--src:url(/static/images/c7144b379bfc68ed1c0862b3955f1f11.png)"
+                class="chatbot-image2 layout"
+              ></div>
+            </div>
+              </button>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript">
+      AOS.init();
+    </script>
+  </body>
+</html>
